@@ -1,0 +1,30 @@
+{
+  "name": "discordbot-template",
+  "version": "1.0.0",
+  "description": "A template used to create future bots!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamKemp/DiscordBot-Template.git"
+  },
+  "author": "SamKemp55",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamKemp/DiscordBot-Template/issues"
+  },
+  "homepage": "https://samsdiscordbots.co/Template/",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "discord-api-types": "^0.27.1",
+    "discord.js": "^13.0.0",
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}
