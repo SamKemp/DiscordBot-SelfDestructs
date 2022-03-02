@@ -5,19 +5,13 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_VOICE_STATES] });
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 client.commands = new Collection();
 client.menus = new Collection();
 client.buttons = new Collection();
 
 // Scan for and register commands
 ScanCommands('commands', client.commands, true, false);
-
-// Scan for and register menus
-ScanFor('menus', client.menues);
-
-// Scan for and register buttons
-ScanFor('buttons', client.buttons);
 
 // Scan for and register events
 ScanEvents('events', client);

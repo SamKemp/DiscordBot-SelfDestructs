@@ -1,5 +1,7 @@
 {
   "bot_token": "",
   "clientId": "",
-  "guildId": ""
+  "guildId": "",
+  "watchChannel": "",
+  "deleteDelay": 10
 }
