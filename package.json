@@ -1,28 +1,28 @@
 {
-  "name": "discordbot-template",
+  "name": "discordbot-selfdestructs",
   "version": "1.0.0",
-  "description": "A template used to create future bots!",
+  "description": "Posted messages in a desired channel get deleted automatically and then re-posted by the bot, allowing for anonymous messages, as well as this these new messages get automatically deleted after a short time!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamKemp/DiscordBot-Template.git"
+    "url": "git+https://github.com/SamKemp/DiscordBot-SelfDestructs.git"
   },
   "author": "SamKemp55",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SamKemp/DiscordBot-Template/issues"
+    "url": "https://github.com/SamKemp/DiscordBot-SelfDestructs/issues"
   },
-  "homepage": "https://samsdiscordbots.co/Template/",
+  "homepage": "https://samsdiscordbots.co/SelfDestructs/",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
     "@discordjs/opus": "^0.7.0",
     "@discordjs/rest": "^0.3.0",
     "@discordjs/voice": "^0.8.0",
     "discord-api-types": "^0.27.1",
-    "discord.js": "^13.0.0",
+    "discord.js": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "^8.9.0"
